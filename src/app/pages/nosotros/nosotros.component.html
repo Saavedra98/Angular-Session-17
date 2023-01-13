@@ -1,0 +1,22 @@
+<div class="container">
+
+    <div class="cuadro d-flex">
+
+        <div class="botones">
+
+            <a class="d-block" [routerLink]="['mision']" routerLinkActive="activo">Mision</a>
+            <a class="d-block" [routerLink]="['vision']" routerLinkActive="activo">Vision</a>
+
+        </div>
+
+        <div class="tarjeta">
+
+            <router-outlet></router-outlet>
+
+        </div>
+
+
+    </div>
+
+
+</div>
